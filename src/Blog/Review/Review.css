@@ -1,0 +1,135 @@
+/* Review.css
+.slide-enter {
+    transform: translateX(100%);
+  }
+  
+  .slide-enter-active {
+    transform: translateX(0);
+    transition: transform 500ms ease-in-out;
+  }
+  
+  .slide-exit {
+    transform: translateX(0);
+  }
+  
+  .slide-exit-active {
+    transform: translateX(-100%);
+    transition: transform 100ms ease-in-out;
+  }
+   */
+
+
+   /* Review.css */
+/* 
+.slide-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  .slide-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slide-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+   */
+
+
+
+   /* Review.css */
+
+
+   /* Review.css */
+
+/* .slide-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  .slide-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slide-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+   */
+
+
+/* 
+   .slide-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  .slide-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slide-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  /* Optional: Ensure the image also transitions smoothly */
+  /* img {
+    transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+  }
+   */ 
+
+
+
+
+   /* Review.css */
+   
+.slide-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .slide {
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-content {
+    flex: 0 0 100%;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
